@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  background-color: black;
+}
+body {
+  min-height: 100vh;
+}
+.container h1 {
+  color: #fff;
+}
+
+.titleBar {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(18, 18, 18);
+}
+.logo {
+  background-color: rgb(245, 197, 24);
+  margin: 20px;
+  color: black;
+  font-weight: 900;
+}
+.navBar a {
+  color: rgb(224, 207, 202);
+  margin-right: 20px;
+}
+.nav-inp {
+  height: 20px;
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.gridBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.error {
+  text-align: center;
+  color: red;
+}
+.movie-card {
+  background-color: rgb(69, 69, 69);
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #1f1f1f;
+  box-shadow: 0 0 10px #fff;
+  transition: transform 0.2s;
+}
+
+.movie-card img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 2px #808080;
+  object-fit: cover;
+  object-position: 100% 20%;
+}
+.movie-card h3 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: white;
+}
+.movie-card p {
+  color: white;
+}
+.img {
+  margin-right: 20px;
+}
+.img img {
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+}
+.details {
+  width: 60%;
+  background-color: #808080;
+  border-radius: 30px;
+  padding: 30px;
+  box-shadow: 5px 5px 8px #585858;
+}
+.account {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.big-card {
+  justify-content: center;
+  margin: 50px;
+  width: 80%;
+  background-color: #585858;
+  border: 1px solid #1f1f1f;
+  box-shadow: 0 0 10px #fff;
+}
+.delete {
+  display: flex;
+  float: right;
+  width: 50px;
+  height: 50px;
+}
+.delete button {
+  border: none;
+  display: flex;
+  margin: 0;
+  background-color: #585858;
+  align-items: center;
+  justify-content: center;
+}
+.delete button:focus {
+  box-shadow: none;
+}
+.image {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.big-card img {
+  margin: 0 auto;
+  border: 5px solid white;
+  max-width: 600px;
+  height: 450px;
+}
+.big-card h3,
+.big-card h4,
+.big-card p {
+  color: #fff;
+}
+.single-card {
+  text-align: -webkit-center;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+ul .back {
+  margin-right: 20px;
+}
+.rating {
+  display: flex;
+  width: 338px;
+  justify-content: space-between;
+  align-items: center;
+}
+.rating button {
+  margin-top: 20px;
+  width: 100px;
+}
+.star-rating {
+  font-size: 24px;
+}
+
+.star {
+  color: #ccc;
+}
+
+.star.filled {
+  color: #ffd700; /* or any other color for filled stars */
+}
+.pagenation-btn {
+  display: flex;
+}
+.pagenation-btn button {
+  margin: 30px 10px;
+}
+.searchbar {
+  width: 90%;
+  display: flex;
+  align-items: baseline;
+}
+.searchbar input {
+  width: 80%;
+}
+.image-block {
+  width: 275px;
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  border: 4px solid #fff;
+  border-radius: 12px;
+}
+.filter {
+  height: 60px;
+  width: 100px;
+  background-color: #ffd700;
+}
+.update-btn {
+  margin: 0 auto;
+  width: 120px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.otp-container input {
+  color: #fff;
+}
